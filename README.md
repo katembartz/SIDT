@@ -1,7 +1,33 @@
 # SIDT
 Automated data cleaning and generation of normative values on large datasets with SIDT: statistical iterative data truncation.
 
-Publication: Bartz, K.M. et al. (in press), "Construction of a normative database of human retinal thicknesses from existing UK Biobank OCT Participants," in [Proceedings of SPIE Medical Imaging (SPIE-MI 2026), Vancouver, Canada, February 15-19, 2026], (2026).
+**Publication**: Bartz, K.M., Wei, S. _et al._ (in press), "Construction of a normative database of human retinal thicknesses from existing UK Biobank OCT Participants," in [_Proceedings of SPIE Medical Imaging (SPIE-MI 2026), Vancouver, Canada, February 15-19, 2026_], (2026).
+
+```
+@inproceedings{bartz2026inpressSIDT,
+  title={Construction of a normative database of human retinal thicknesses from existing UK Biobank OCT Participants},
+  author={Bartz, Kathleen M and Shuwen Wei and Prince, Jerry L and Carass, Aaron},
+  booktitle={"Proceedings of SPIE Medical Imaging~(SPIE-MI 2026), Vancouver, Canada, February 15 -- 19, 2026"},
+  year={2026}
+}
+```
+
+## Quick Start
+
+We recommend starting from a fresh python installation.
+
+```
+conda create -n sidt python=3.10
+conda activate sidt
+```
+
+Clone and install this repository.
+
+```
+git clone https://github.com/katembartz/SIDT
+cd SIDT
+pip install .
+```
 
 ## 1. Introduction and Motivation
 
