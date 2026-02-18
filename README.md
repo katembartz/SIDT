@@ -37,6 +37,7 @@ sidt \
   --tmp-dir {dir_to_store_intermediate_steps} \
   [--tol-m {tolerance_for_mean}] \
   [--tol-s {tolerance_for_standard_dev}] \
+  [--maxIter {int_num_max_iterations}] \
   --k {tolerance_for_variables_OOD}
 ```
 
