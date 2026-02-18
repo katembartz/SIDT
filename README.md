@@ -29,7 +29,7 @@ cd SIDT
 pip install .
 ```
 
-Run SIDT on a csv file containing your databank. The first column of the database must hold the variables of interests (e.g. regions) and the first row much correspond to subjects.
+Run SIDT on a csv file containing your databank. The first column of the database must hold the variables of interests (e.g. regions) and the first row must correspond to subjects.
 
 ```
 sidt \
