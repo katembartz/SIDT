@@ -58,6 +58,8 @@ From this segmentation we calculate the mean thickness of the nine retinal layer
 
 The ETDRS grid, overlayed on OCT retinal fundus images in part (b) of the above figure, divides the macula into nine regions, which are defined by three rings centered on the fovea: a central macular disc with a radius of 0.5 mm; an inner macular ring with inner and outer radii of 0.5 mm to 1.5 mm, respectively; and an outer macular ring with inner and outer radii of 1.5 mm to 2.5 mm, respectively. Both the inner and outer macular rings are equally divided into quadrants representing the nasal, temporal, inferior, and superior regions. In addition to the nine regions depicted, we also investigate four regions—inferior nasal, inferior temporal, superior nasal, and superior temporal—that divide the 2.5 mm macular disc centered at the fovea. Finally, we also include a total macular area of 5 × 5 $mm^2$ centered on the fovea.
 
+Normative measures for the OCT retinal layer/region pairs can be found in `normative_measures_OCT_retinal_layers`.
+
 
 ## 3. SIDT Algorithm
 
