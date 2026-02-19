@@ -33,13 +33,16 @@ Run SIDT on a csv file containing your databank. The first column of the databas
 
 ```
 sidt \
-  --data-path {path_to_csv} \
-  --tmp-dir {dir_to_store_intermediate_steps} \
+  --data-path {path_to_database_csv} \
+  [--tmp-dir {dir_to_store_intermediate_steps}] \
   [--tol-m {tolerance_for_mean}] \
   [--tol-s {tolerance_for_standard_dev}] \
   [--maxIter {int_num_max_iterations}] \
   --k {tolerance_for_variables_OOD}
 ```
+
+Default values: `--tol-m = 0.05` and `--tol-s = 0.05`, and `--maxIter = 20`. Temporary directory created to store intermediate results on the current working path if `--tmp-dir` is left unspecified.
+
 
 ## 1. Introduction and Motivation
 
