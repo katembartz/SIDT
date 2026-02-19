@@ -41,7 +41,7 @@ sidt \
   --k {tolerance_for_variables_OOD}
 ```
 
-Default values: `--tol-m = 0.05` and `--tol-s = 0.05`, and `--maxIter = 20`. Temporary directory created to store intermediate results on the current working path if `--tmp-dir` is left unspecified.
+Default values: `--tol-m = 0.05`, `--tol-s = 0.05`, and `--maxIter = 20`. Temporary directory created to store intermediate results on the current working path if `--tmp-dir` is left unspecified.
 
 
 ## 1. Introduction and Motivation
